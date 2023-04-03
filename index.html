@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
     />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/profile.css" />
@@ -57,10 +61,9 @@
       <div class="profile-info">
         <h1 class="profile-title">Hola, Soy <br/>Mateo Garzon</h1>
         <p class="profile-details">Soy apasionado por la programacion, tengo poca experiencia pero con ganas de aprender lo mas que pueda!!</p>
-        <button class="profile-btn">
-          <a href="/Hector mateo garzon - Hector mateo garzon.pdf">
+        
+          <a class="profile-btn" href="/Hector mateo garzon - Hector mateo garzon.pdf" download>
            Descargar CV</a>
-        </button>
       </div>
     <span class="profile-img-section">
         <img class="profile-img" src="./img/foto.png" alt=" Hector Mateo Garzon ALdana">
@@ -136,7 +139,7 @@
             <p class="contact-text">Deje su mensaje y con gusto le responderemos</p>
         </div>
       </div>
-      <form  class="contact-form">
+      <form  class="contact-form name=contact" netlify>
         <div class="contact-form-group">
           <label for="name">Nombre</label>
           <input required type="text" name="name" id="name
